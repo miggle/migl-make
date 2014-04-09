@@ -7,7 +7,7 @@
 # install box-parts
 parts install php5 php5-apache2 php5-pdo-mysql php5-gd mysql php5-curl composer;
 composer global require drush/drush:6.*;
-source ~/.bash_profile;
+source ../.bash_profile;
 
 # start services
 parts start apache2 mysql;
