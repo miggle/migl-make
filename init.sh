@@ -5,7 +5,7 @@
 # open terminal tools/terminal
 
 # install box-parts
-parts install php5 php5-apache2 php5-pdo-mysql php5-gd mysql php5-curl composer;
+parts install php5 php5-apache2 php5-pdo-mysql php5-gd mysql php5-curl composer php5-xdebug;
 composer global require drush/drush:6.*;
 . ~/.bash_profile;
 
