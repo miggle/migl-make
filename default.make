@@ -32,6 +32,7 @@ projects[ctools][subdir] = contrib
 projects[token][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[features][subdir] = contrib
+projects[features][patch][] = "https://drupal.org/files/issues/drush-fra-issue-2210291-2.patch"
 projects[libraries][subdir] = contrib
 projects[entityreference][subdir] = contrib
 projects[strongarm][subdir] = contrib
