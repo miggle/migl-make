@@ -44,6 +44,7 @@ projects[facetapi][subdir] = contrib
 
 ; FIELD, MEDIA AND CONTENT EDITING ENHANCEMENTS
 projects[wysiwyg][subdir] = contrib
+projects[wysiwyg][patch][] = "https://drupal.org/files/wysiwyg-ckeditor4-1853550-4.patch"
 projects[linkit][subdir] = contrib
 projects[link][subdir] = contrib
 projects[email][subdir] = contrib
