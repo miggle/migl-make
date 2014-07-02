@@ -51,6 +51,7 @@ projects[email][subdir] = contrib
 projects[field_group][subdir] = contrib
 projects[media][version] = 2.0-alpha3
 projects[media][subdir] = contrib
+projects[media][patch][] = "https://www.drupal.org/files/media-missing-attributes-2067063-12.do-not-test.patch"
 projects[file_entity][subdir] = contrib
 projects[inline_entity_form][subdir] = contrib
 projects[date][subdir] = contrib
