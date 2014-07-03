@@ -60,6 +60,8 @@ projects[date][subdir] = contrib
 projects[rules][subdir] = contrib
 projects[ds][subdir] = contrib
 projects[context][subdir] = contrib
+projects[context][patch][] = "https://www.drupal.org/files/context-795058-override-block-titles-58.patch"
+projects[context][patch][] = "https://www.drupal.org/files/context-sitewide_non_admin_condition-2089925-5.patch"
 projects[eck][subdir] = contrib
 
 ; SEO
