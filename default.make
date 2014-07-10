@@ -76,10 +76,11 @@ projects[site_verify][subdir] = contrib
 ; -------------------------------------
 ; CUSTOM
 ; -------------------------------------
-projects[master_dependency][download][type] = git
-projects[master_dependency][download][url] = “https://github.com/miggle/master_dependency.git"
 projects[master_dependency][type] = module
-projects[master_dependency][subdir] = contrib
+projects[master_dependency][download][type] = git
+projects[master_dependency][download][url] = "https://github.com/miggle/master_dependency.git"
+projects[master_dependency][subdir] = custom
+
 
 ; -------------------------------------
 ; THEMES
