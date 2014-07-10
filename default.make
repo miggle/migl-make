@@ -63,6 +63,7 @@ projects[context][subdir] = contrib
 projects[context][patch][] = "https://www.drupal.org/files/context-795058-override-block-titles-58.patch"
 projects[context][patch][] = "https://www.drupal.org/files/context-sitewide_non_admin_condition-2089925-5.patch"
 projects[eck][subdir] = contrib
+projects[entityform][subdir] = contrib
 
 ; SEO
 projects[pathauto][subdir] = contrib
