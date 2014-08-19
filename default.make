@@ -72,6 +72,10 @@ projects[google_analytics][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
 projects[metatag][subdir] = contrib
 projects[site_verify][subdir] = contrib
+projects[redirect][subdir] = contrib
+projects[redirect][version] = 1.0-rc1
+projects[redirect][patch][] = "https://drupal.org/files/issues/redirect.circular-loops.1796596-119.patch"
+projects[redirect][patch][] = "https://drupal.org/files/redirect-migrate-support-1116408-69.patch"
 
 ; -------------------------------------
 ; CUSTOM
@@ -87,6 +91,7 @@ projects[master_dependency][subdir] = custom
 ; -------------------------------------
 
 projects[] = shiny
+projects[] = bassline
 
 ; -------------------------------------
 ; LIBRARIES
