@@ -53,6 +53,7 @@ projects[media][version] = 2.0-alpha3
 projects[media][subdir] = contrib
 projects[media][patch][] = "https://www.drupal.org/files/media-missing-attributes-2067063-12.do-not-test.patch"
 projects[file_entity][subdir] = contrib
+projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][patch][] = "https://www.drupal.org/files/issues/file_entity_upload_form_file_name.patch"
 projects[inline_entity_form][subdir] = contrib
 projects[date][subdir] = contrib
@@ -60,6 +61,7 @@ projects[date][subdir] = contrib
 ; SITE BUILDING TOOLS
 projects[rules][subdir] = contrib
 projects[ds][subdir] = contrib
+projects[ds][patch][] = "https://www.drupal.org/files/issues/ds_render_ctools_field_undefined_index_fix-2390299-1.patch"
 projects[context][subdir] = contrib
 projects[context][patch][] = "https://www.drupal.org/files/context-795058-override-block-titles-58.patch"
 projects[context][patch][] = "https://www.drupal.org/files/context-sitewide_non_admin_condition-2089925-5.patch"
