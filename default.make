@@ -47,6 +47,7 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][patch][] = "https://drupal.org/files/wysiwyg-ckeditor4-1853550-4.patch"
 projects[linkit][subdir] = contrib
 projects[link][subdir] = contrib
+projects[pathologic][subdir] = contrib
 projects[email][subdir] = contrib
 projects[field_group][subdir] = contrib
 projects[media][version] = 2.0-alpha3
