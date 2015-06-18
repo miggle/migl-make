@@ -53,6 +53,7 @@ projects[field_group][subdir] = contrib
 projects[media][version] = 2.0-alpha3
 projects[media][subdir] = contrib
 projects[media][patch][] = "https://www.drupal.org/files/media-missing-attributes-2067063-12.do-not-test.patch"
+projects[media][patch][] = "https://www.drupal.org/files/media-missing-attributes-2067063-22.patch"
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][patch][] = "https://www.drupal.org/files/issues/file_entity_upload_form_file_name.patch"
