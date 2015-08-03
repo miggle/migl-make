@@ -82,6 +82,10 @@ projects[redirect][version] = 1.0-rc1
 projects[redirect][patch][] = "https://drupal.org/files/issues/redirect.circular-loops.1796596-119.patch"
 projects[redirect][patch][] = "https://drupal.org/files/redirect-migrate-support-1116408-69.patch"
 
+; PROTECTION
+projects[honeypot][subdir] = contrib
+projects[flood_control][subdir] = contrib
+
 ; -------------------------------------
 ; CUSTOM
 ; -------------------------------------
