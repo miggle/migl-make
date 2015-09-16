@@ -53,6 +53,7 @@ projects[field_group][subdir] = contrib
 projects[media][version] = 2.0-alpha3
 projects[media][subdir] = contrib
 projects[media][patch][] = "https://www.drupal.org/files/media-missing-attributes-2067063-12.do-not-test.patch"
+projects[media][patch][] = "https://www.drupal.org/files/media-missing-attributes-2067063-22.patch"
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][patch][] = "https://www.drupal.org/files/issues/file_entity_upload_form_file_name.patch"
@@ -80,6 +81,10 @@ projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
 projects[redirect][patch][] = "https://drupal.org/files/issues/redirect.circular-loops.1796596-119.patch"
 projects[redirect][patch][] = "https://drupal.org/files/redirect-migrate-support-1116408-69.patch"
+
+; PROTECTION
+projects[honeypot][subdir] = contrib
+projects[flood_control][subdir] = contrib
 
 ; -------------------------------------
 ; CUSTOM
